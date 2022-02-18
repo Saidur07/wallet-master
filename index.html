@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Master</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/money.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Header starts here  -->
+
+    <header>
+        <h1>Wallet Master 💸</h1>
+    </header>
+
+    <!-- main section starts  here  -->
+    <main>
+        <!-- The image goes here  -->
+        <div class="left-side">
+            <img src="img/money.jpg" alt="">
+        </div>
+        <div class="right-side">
+            <div class="inputs">
+                <h3>Income</h3>
+                <span>Income : </span><input id="income" type="number" placeholder="Your Income">
+
+                <h3>Expenses</h3>
+                <span>Food : </span> <input id="food-expense" type="number" placeholder="Your Food"> <br><br>
+                <span>Rent : </span><input id="rent-expense" type="number" placeholder="Your Rent"><br><br>
+                <span>Cloth : </span><input id="cloths-expense" type="number" placeholder="Your Clothes">
+                <br>
+                <button id="calculate-btn">Calculate</button>
+
+            <h2>Total Expenses : <span id="total-expense">00</span></h2>
+            <h2>Current Balance : <span id="expense-balance">00</span></h2>
+    
+        
+                <span>Save : </span> <input id="saving-percent" type="number" placeholder="Save"><span> % </span> <button
+                    id="save-btn">Save</button>
+            </div>
+            <div class="remaining-balance">
+                <h2>Saving Amount : <span id="saving-amount">00</span></h2>
+            <h2>Remaining Balance : <span id="total-balance">00</span></h2>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer section starts here  -->
+    <footer>
+        <p>&copy; SR7 Wallet Master, all rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
