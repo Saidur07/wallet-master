@@ -1,7 +1,7 @@
 
 # Wallet Master
 
-This is a simple project using JavaScript. It calculates the savings and expenses from your total income (Assignment 5 : 60 )
+This is a simple project using JavaScript. It calculates the savings and expenses from your total income (Assignment 5 : 60)
 
 [https://programmer-saidur.github.io/wallet-master/](https://programmer-saidur.github.io/wallet-master/)
 
